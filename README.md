@@ -19,7 +19,7 @@ view(selector) scroll html element to view
 
 # Demo
 if you want to automatically login to www.newsmth.com, you can use following script
-
+```csharp
 go("http://www.newsmth.com");
 ready();
 value("#id","user name");
@@ -27,3 +27,4 @@ value("#pwd","password");
 click("#b_login");
 ready();
 log("login");
+```
