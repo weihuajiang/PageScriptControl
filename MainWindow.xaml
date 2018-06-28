@@ -1,0 +1,29 @@
+﻿<Window x:Class="FormSubmit2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FormSubmit2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="34"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="0.5*"/>
+        </Grid.ColumnDefinitions>
+        <Border BorderThickness="1" Grid.ColumnSpan="2">
+            <WebBrowser Grid.Row="0" Name="webbrowser"/>
+        </Border>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Run default script" Width="150" Margin="3" Click="RunDefault"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Grid.Column="1">
+            <Button Content="Run Script" Width="100" Margin="3" Click="Run"/>
+            <Button Content="List Element" Width="100" Margin="3" Click="OnList"/>
+        </StackPanel>
+    </Grid>
+</Window>
