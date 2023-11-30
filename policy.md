@@ -22,7 +22,7 @@
           </li>
       <li><strong>Affiliate</strong> means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.</li>
     <li><strong>Account</strong> means a unique account created for You to access our Service or parts of our Service.</li>
-  <li><strong>Website</strong> refers to visual code editor, accessible from  [http://www.huaruirobot.com](https://huaruirobot.com/vp.en.html)</li>        <li><strong>Service</strong> refers to the Website.</li>
+  <li><strong>Website</strong> refers to visual code editor, accessible from  https://huaruirobot.com/vp.en.html</li>        <li><strong>Service</strong> refers to the Website.</li>
       <li><strong>Country</strong> refers to: China</li>
     <li>
         <p><strong>Service Provider</strong> means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.</p>
